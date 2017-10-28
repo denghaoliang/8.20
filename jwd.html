@@ -7,8 +7,11 @@
 	</head>
 	<script src="jquery-3.2.1.min.js"></script>
 	<body>
-  <div style="color: red;">经度为：<p id="jingdu"></p></div>
-<div style="color: blue;">纬度为：<p id="weidu"></p></div>
+		<p>您所在的位置：</p>
+  <div style="color: red;">经度：<span id="jingdu"></span></div>
+<div style="color: blue;">纬度：<span id="weidu"></span></div>
+<div style="color: gold;">属于：<span id="guojia"></span>-<span id="sheng"></span> </div>
+
 <button  onclick="getLocation()" id="button">试一下</button>
 <!--<button id="button">按钮</button>-->
 	</body>
